@@ -18,4 +18,3 @@ def calculadora(numero1, numero2, operacao):
     
     
     
-print(calculadora(1,2,1))   
