@@ -1,13 +1,10 @@
-
-
-
 i = 0
 candidato_X = 0
 candidato_Y = 0
 candidato_Z = 0
 branco = 0
 nulo = 0
-vencedor = ''
+
 def quantidade_Votos():
      if(int(branco) >= 2):
         print("a maior quantidade de votos foram brancos") 
@@ -30,9 +27,6 @@ def candidatoVencedor():
     elif(candidato_X == candidato_Y == candidato_Z):
         print("Não há vencedores")
     quantidade_Votos()
-
-
-    
 
 while(i < 3):
     print("Eleja o seu candidato:")
@@ -61,7 +55,6 @@ while(i < 3):
         nulo = nulo + 1
         votar()
 candidatoVencedor()        
-
 
 print("O numero de votos do candidato_X foi igual a: " + str(candidato_X))
 print("O numero de votos do candidato_Y foi igual a: " + str(candidato_Y))
