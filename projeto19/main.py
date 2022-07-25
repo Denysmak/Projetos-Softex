@@ -11,5 +11,5 @@ print(df)
 print("O maior numero de faltas foi: " + str(df["faltas"].max()))
 print("A média geral das notas foi: " + str(df["media"].mean()))
 print("A maior média foi: " + str(df["media"].max()))
-
+df.to_csv("alunos_situacao.csv")
 
