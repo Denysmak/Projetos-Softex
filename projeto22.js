@@ -1,22 +1,26 @@
-let  somaDeLivros = 0
+
 class Livro {
-    constructor(nome, editora, paginas){
+    static lastKey = 0;
+    constructor(nome, editora, paginas) {
         this.nome = nome
         this.editora = editora
         this.paginas = paginas
-        this.somaDeLivros = 0
-        somaDeLivros++
+        this.Livro = ++Livro.lastKey;
+        this.soma()
+        /*    somaDeLivros++ */
     }
-    anunciarTitulo(){
+    anunciarTitulo() {
         console.log(`Título: ${this.nome}`)
     }
-    anunciarEditora(){
+    anunciarEditora() {
         console.log(`Editora: ${this.editora}`)
     }
+    soma() {
+        console.log("A quantidade de objetos usando essa classe é igual a: " + this.Livro)
+    }
+
 }
 
 const HA = new Livro("Homem Aranha", "Marvel", 200)
 const SM = new Livro("SuperMan", "DC", 300)
 const CA = new Livro("Capitão America", "Marvel", 200)
-
-console.log("O numero de objetos criados foi: " + somaDeLivros)
