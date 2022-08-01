@@ -1,9 +1,10 @@
 
 class carro {
-
+    #modelo
+    #marca
     constructor() {
-        this.modelo = "O modelo ainda não foi informado";
-        this.marca = "A marca ainda não foi informada"
+        this.#modelo = "O modelo ainda não foi informado";
+        this.#marca = "A marca ainda não foi informada"
     }
     set setModelo(a) {
         this.modelo = a
