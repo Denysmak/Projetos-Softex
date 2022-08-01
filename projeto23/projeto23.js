@@ -7,16 +7,16 @@ class carro {
         this.#marca = "A marca ainda não foi informada"
     }
     set setModelo(a) {
-        this.modelo = a
+        this.#modelo = a
     }
     get getModelo() {
-        return this.modelo
+        return this.#modelo
     }
     set setMarca(b) {
-        this.marca = b
+        this.#marca = b
     }
     get getMarca() {
-        return this.marca
+        return this.#marca
     }
 }
 
