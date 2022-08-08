@@ -31,10 +31,13 @@ public class main2 {
         oos.writeObject(pessoa1);
         oos.close();
 
-        // deserializar
+        // desserializar
         ObjectInputStream obj = new ObjectInputStream(new FileInputStream("./arquivo.bin"));
         pessoa pessoa1D = (pessoa) obj.readObject();
         obj.close();
+        System.out.println("O objeto pessoa1 depois de ser desserializado: ");
+        System.out.println("O nome dessa pessoa é " + pessoa1D.nome + ", e ela tem " + pessoa1D.getIdade() + " anos");
+
         
         
         
