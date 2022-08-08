@@ -35,7 +35,7 @@ public class main2 {
         ObjectInputStream obj = new ObjectInputStream(new FileInputStream("./arquivo.bin"));
         pessoa pessoa1D = (pessoa) obj.readObject();
         obj.close();
-        System.out.println(pessoa1D.getIdade());
+        
         
         
 
