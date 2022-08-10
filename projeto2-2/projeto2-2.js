@@ -1,0 +1,1 @@
+console.log("O ambiente escolhido foi o vscode, o vs code tem  várias extensões que tornam o trabalho do desenvolvedor mais eficiente, além de vários botões de atalho.")
