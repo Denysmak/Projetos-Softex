@@ -42,3 +42,5 @@ def calculadora():
             numero2 = int(input())
             divisao = numero1 / numero2
             print("o resultado é igual a " + str(divisao))
+        else:
+            print("Essa opção não existe")
