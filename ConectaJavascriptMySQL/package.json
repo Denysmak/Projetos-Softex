@@ -1,0 +1,22 @@
+{
+  "name": "projeto11-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "npm": "^8.18.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4",
+    "sqlite3": "^5.0.11",
+    "tedious": "^15.0.1"
+  }
+}
