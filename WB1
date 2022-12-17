@@ -1,39 +1,43 @@
-@@ -0,0 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pacote1;
 
 import javax.jws.WebService;
-
-
-
 import javax.jws.WebMethod;
-
-
-
-
 import javax.jws.WebParam;
-
-
-
 import javax.ejb.Stateless;
 
-
-
-
-
-@WebService(serviceName = "Concatenação")
+@WebService(serviceName = "Multiplicacao")
 @Stateless()
-public class Concatenação {
+public class Multiplicacao {
 
     /**
      * This is a sample web service operation
      */
-    @WebMethod(operationName = "hello")
-    public String hello(@WebParam(name = "name") String txt) {
-        return "Hello " + txt + " !";
+    @WebMethod(operationName = "Multiplicar")
+    public int Multiplicar(@WebParam(name = "numero1") int numero1, @WebParam(name ="numero2")int numero2) {
+
+        int result = numero1*numero2;
+        return result;
     }
 }
+
+<?xml version"1.0" encoding="UTF-8"?><S:Envelope xmlns:S"https://schemas.xlmsoap.org/soap/envelope" xmlns:SOAP-ENV="https://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <ns2:Multiplicar xmlns:ns2="https://pacote1/">
+            <numero1>3</numero1>
+            <numero2>2</numero2>
+        <ns2:Somar>
+     </S:Body>   
+    </S:Envelope>
+
+<?xml version"1.0" encoding="UTF-8"?><S:Envelope xmlns:S"https://schemas.xlmsoap.org/soap/envelope" xmlns:SOAP-ENV="https://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body>
+        <ns2:MultiplicarResponse xmlsn:ns2="https://pacote1/">
+            <return>5</return>
+        </ns2:SomarResponse>
+      </S:Body>
+    </S:Envelope>
+
+
+O SOAP é um protocolo elaborado para facilitar a chamada remota de funções via Internet, permitindo que dois programas se comuniquem de uma maneira tecnicamente muito semelhante à invocação de páginas Web.
