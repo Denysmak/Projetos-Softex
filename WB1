@@ -7,14 +7,24 @@
 package pacote1;
 
 import javax.jws.WebService;
+
+
+
 import javax.jws.WebMethod;
+
+
+
+
 import javax.jws.WebParam;
+
+
+
 import javax.ejb.Stateless;
 
-/**
- *
- * @author DENYS
- */
+
+
+
+
 @WebService(serviceName = "Concatenação")
 @Stateless()
 public class Concatenação {
