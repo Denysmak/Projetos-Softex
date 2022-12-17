@@ -1,0 +1,6 @@
+1 - Cliente / Servidor
+2 - Stateless o sistema tem que ser sem estado sem sessões criadas no servidor para os clientes e as requisições tem que ter tudo que é necessário para processamento token dados etc
+3 - Precisa permitir que o cache seja feito
+4 - Interface uniforme - a API não pode fazer distinção dos clientes, não pode diferir navegador, desktop ou mobile
+5 - sistemas em camadas, entre o cliente e a API deve ser possivel adicionar algum servico como log da aplicação
+6 - Código sobre demanda
