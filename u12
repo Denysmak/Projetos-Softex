@@ -3,6 +3,31 @@ MVP serve para a Criação e lançamento de um produto no menor tempo possível,
 O MVP serve para testar a viabilidade do negócio. O Protótipo para testar a viabilidade técnica do produto/serviço.
 Nesse sentido, o MVP fornece feedback para orientar o desenvolvimento do negócio; já o Protótipo fornece feedback
 para melhoria técnica do produto/serviço.
+
+As vantagens do MVP são:
+  - Esforço menor em recursos e em desenvolvimento da empresa
+ - Validar hipóteses
+ - Identificar a aceitação do produto no mercado
+ - Combatendo desperdícios de recursos
+ - Aumenta a compreensão sobre o cliente
+ - Permitir identificar as principais falhas e corrigi-las
+As desvantagens do MVP são:
+-Pode ser difícil decidir quais funcionalidades incluir: como o MVP deve ter apenas a funcionalidade mínima necess
+ária, pode ser difícil decidir quais funcionalidades incluir no produto.
+
+-Pode levar mais tempo para o produto ser lançado: como o MVP deve ser desenvolvido e testado antes do lançamento, 
+o produto pode levar mais tempo para ser lançado.
+
+-Pode ser difícil obter o feedback dos clientes: como o MVP tem apenas a funcionalidade mínima necessária,
+os clientes podem não estar dispostos a fornecer feedback, o que pode dificultar o processo de desenvolvimento do produto.
  
- 
- 
+As vantagens do MDP são:
+ - Enfatiza a experiência do usuário junto ao modelo de negócio
+ - Validação de requisitos para um melhor entendimento do projeto
+  - Prever problemas antes do tempo a fim de minimizar riscos
+  - A chance do resultado final estar dentro das expectativas do cliente é muito maior
+  - Melhor planejamento = melhores resultados
+  
+ As desvantagens do MDP são:
+  - Falta de familiaridade 
+ - Fidelidade e funcionalidade limitadas 
